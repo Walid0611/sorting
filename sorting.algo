@@ -10,9 +10,12 @@ BEGIN
             (j -= 1)
         arr([j + 1]) = key
     return arr
+    write("ecrire la procedure")
+    read("lire la fonction ")
 
 arr = [3, 4, 5, 2, 1]
 print(insertion_sort(arr))
+
 END
 
 
