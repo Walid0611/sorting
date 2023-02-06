@@ -2,6 +2,8 @@ ALGORITHM ainsertion_sort
 VAR
     (arr):
 BEGIN
+write("ecrire la procedure")
+read("lire la function")
     for(i in range(1, len(arr)):)
         (key = arr[i])
         (j = i - 1)
@@ -10,8 +12,8 @@ BEGIN
             (j -= 1)
         arr([j + 1]) = key
     return arr
-    write("ecrire la procedure")
-    read("lire la fonction ")
+    write("ecrire le valeur")
+    read("lire la fonction sort ")
 
 arr = [3, 4, 5, 2, 1]
 print(insertion_sort(arr))
